@@ -13,14 +13,7 @@ packer.startup(function(use)
     requires = { 'tjdevries/colorbuddy.nvim' }
   }
   use 'kyazdani42/nvim-web-devicons' -- File icons
-  use({
-	"L3MON4D3/LuaSnip",
-  requires = { "rafamadriz/friendly-snippets" },
-	-- follow latest release.
-	tag = "v2.*", -- Replace <CurrentMajor> by the latest released major (first number of latest release)
-	-- install jsregexp (optional!:).
-	run = "make install_jsregexp"
-  })
+  use 'L3MON4D3/LuaSnip' -- LuaSnip
   use 'hoob3rt/lualine.nvim' -- StatusLine
   use 'onsails/lspkind-nvim' -- vscode-like pictograms
 
