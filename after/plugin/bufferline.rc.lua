@@ -4,7 +4,7 @@ if (not status) then return end
 bufferline.setup {
   options = {
     mode = 'tab',
-    separator_style = 'slant',
+    separator_style = 'thin',
     always_show_bufferline = false,
     show_buffer_close_icons = false,
     show_close_icons = false,

@@ -4,7 +4,7 @@ if (not status) then return end
 lualine.setup{
   option = {
     icons_enabled = true,
-    theme = 'solarized_dark',
+    theme = 'horizon',
     setion_separators = { left = '', right = '' },
     component_separators = { left = '', right = '' },
     disabled_filetype = {}
@@ -12,7 +12,7 @@ lualine.setup{
   sections = {
     lualine_a = { 'mode' },
     lualine_b = { 'brance' },
-    lualine_c = { { 
+    lualine_c = { {
       'filename',
       file_status = true, -- Display file status
       path = 0 -- 0 = Just filename
@@ -38,5 +38,5 @@ lualine.setup{
     lualine_z = {}
   },
   tabline = {},
-  extensions = { 'fugitive' } 
+  extensions = { 'fugitive' }
 }

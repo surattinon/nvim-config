@@ -81,4 +81,8 @@ packer.startup(function(use)
 
   use 'lewis6991/gitsigns.nvim'
   use 'dinhhuy258/git.nvim'
+
+  use 'mattn/emmet-vim' -- HTML emmet snippets
+
+  use 'tpope/vim-fugitive' --vim-fugitive for git bash in vim
 end)

@@ -99,6 +99,11 @@ _G.packer_plugins = {
     path = "/Users/basu/.local/share/nvim/site/pack/packer/start/colorbuddy.nvim",
     url = "https://github.com/tjdevries/colorbuddy.nvim"
   },
+  ["emmet-vim"] = {
+    loaded = true,
+    path = "/Users/basu/.local/share/nvim/site/pack/packer/start/emmet-vim",
+    url = "https://github.com/mattn/emmet-vim"
+  },
   ["friendly-snippets"] = {
     loaded = true,
     path = "/Users/basu/.local/share/nvim/site/pack/packer/start/friendly-snippets",
@@ -232,6 +237,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/basu/.local/share/nvim/site/pack/packer/start/ultisnips",
     url = "https://github.com/SirVer/ultisnips"
+  },
+  ["vim-fugitive"] = {
+    loaded = true,
+    path = "/Users/basu/.local/share/nvim/site/pack/packer/start/vim-fugitive",
+    url = "https://github.com/tpope/vim-fugitive"
   },
   ["vim-react-snippets"] = {
     loaded = true,
