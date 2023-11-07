@@ -55,12 +55,9 @@ packer.startup(function(use)
   use 'williamboman/mason.nvim' -- Mason-LSP
   use 'williamboman/mason-lspconfig.nvim' -- Mason-LSP
 
-  ---------------- coc-nvim-ultisnips setup with react snip ------------------
- -- use {'neoclide/coc.nvim', branch = 'master', run = 'npm ci'}
-  use 'quangnguyen30192/cmp-nvim-ultisnips'
-  use 'SirVer/ultisnips'
+  ---------------- react snip ------------------
   use 'mlaursen/vim-react-snippets'
-  ----------------------------------------------------------------------------
+  ----------------------------------------------
 
   use {
     'nvim-treesitter/nvim-treesitter',
