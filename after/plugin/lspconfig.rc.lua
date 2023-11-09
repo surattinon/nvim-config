@@ -23,6 +23,17 @@ require'lspconfig'.html.setup {
   cmd = { "vscode-html-language-server", "--stdio" }
 }
 
+require'lspconfig'.cssls.setup {
+  capabilities = capabilities,
+  cmd = { "vscode-css-language-server", "--stdio" },
+  filetypes = { "css", "scss", "less" },
+}
+
+require'lspconfig'.cssmodules_ls.setup{
+  cmd = { "cssmodules-language-server" },
+  filetypes = { "javascript", "javascriptreact", "typescript", "typescriptreact" },
+}
+
 nvim_lsp.tsserver.setup {
   on_attach = on_attach,
   filetypes = { "javascript", "javascriptreact", "javascript.jsx", "typescript", "typescriptreact", "typescript.tsx" },

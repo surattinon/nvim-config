@@ -43,15 +43,6 @@ packer.startup(function(use)
   ---------- Pair Line --------------
   use ('lukas-reineke/indent-blankline.nvim')
 
-  ---------- LSP UI --------------
-  use ({
-    'nvimdev/lspsaga.nvim',
-    after = 'nvim-lspconfig',
-    config = function()
-      require('lspsaga').setup({})
-    end,
-  })
-
   use 'williamboman/mason.nvim' -- Mason-LSP
   use 'williamboman/mason-lspconfig.nvim' -- Mason-LSP
 
@@ -61,6 +52,15 @@ packer.startup(function(use)
   use 'SirVer/ultisnips'
   use 'mlaursen/vim-react-snippets'
   ----------------------------------------------------------------------------
+  
+  use({
+  "aurum77/live-server.nvim",
+    run = function()
+      require"live_server.util".install()
+    end,
+    cmd = { "LiveServer", "LiveServerStart", "LiveServerStop" },
+  })
+
 
   use {
     'nvim-treesitter/nvim-treesitter',
