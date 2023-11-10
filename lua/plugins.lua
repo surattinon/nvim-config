@@ -85,4 +85,6 @@ packer.startup(function(use)
   use 'mattn/emmet-vim' -- HTML emmet snippets
 
   use 'tpope/vim-fugitive' --vim-fugitive for git bash in vim
+
+  use 'ThePrimeagen/vim-be-good' -- Vim motion practice
 end)
