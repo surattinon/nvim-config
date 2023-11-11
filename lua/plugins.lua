@@ -48,8 +48,6 @@ packer.startup(function(use)
 
   ---------------- coc-nvim-ultisnips setup with react snip ------------------
  -- use {'neoclide/coc.nvim', branch = 'master', run = 'npm ci'}
-  use 'quangnguyen30192/cmp-nvim-ultisnips'
-  use 'SirVer/ultisnips'
   use 'mlaursen/vim-react-snippets'
   ----------------------------------------------------------------------------
   
